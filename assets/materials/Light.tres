@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://q2r5f2hl74ol"]
+
+[ext_resource type="Texture2D" uid="uid://b3j4gcvw080a2" path="res://assets/textures/environment/backrooms-ceiling-light-diffuse.png" id="1_b773s"]
+[ext_resource type="Texture2D" uid="uid://doxqpqsw3o121" path="res://assets/textures/environment/backrooms-ceiling-light-emission.png" id="2_dmjm8"]
+[ext_resource type="Texture2D" uid="uid://cx5hk83k6uly4" path="res://assets/textures/environment/backrooms-ceiling-light-normal.png" id="3_cxbv5"]
+[ext_resource type="Texture2D" uid="uid://ds0owx1yrwbdp" path="res://assets/textures/environment/backrooms-ceiling-light-roughness.png" id="4_kkubk"]
+
+[resource]
+albedo_texture = ExtResource("1_b773s")
+roughness_texture = ExtResource("4_kkubk")
+emission_enabled = true
+emission_texture = ExtResource("2_dmjm8")
+normal_enabled = true
+normal_texture = ExtResource("3_cxbv5")
+backlight_enabled = true
+backlight = Color(1, 1, 1, 1)
+uv1_scale = Vector3(0.05, 0.05, 0.05)

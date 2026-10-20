@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bghoogrrlbqvh"]
+
+[ext_resource type="Texture2D" uid="uid://dgc8bht6ur23g" path="res://assets/textures/environment/backrooms-carpet-diffuse.png" id="1_io7np"]
+[ext_resource type="Texture2D" uid="uid://2fjr4l441siq" path="res://assets/textures/environment/backrooms-carpet-normal.png" id="2_37k6n"]
+
+[resource]
+albedo_texture = ExtResource("1_io7np")
+normal_enabled = true
+normal_texture = ExtResource("2_37k6n")
+uv1_scale = Vector3(0.065, 0.065, 0.065)
+uv1_triplanar = true

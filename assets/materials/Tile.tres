@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://jqv0ii0pq8x2"]
+
+[ext_resource type="Texture2D" uid="uid://dmhtoqnm5aita" path="res://assets/textures/environment/backrooms-ceiling-tile-diffuse.png" id="1_hitqn"]
+[ext_resource type="Texture2D" uid="uid://cl7o0d3tm2gga" path="res://assets/textures/environment/backrooms-ceiling-tile-normal.png" id="2_im1g0"]
+[ext_resource type="Texture2D" uid="uid://cqog3s3a2pvlp" path="res://assets/textures/environment/backrooms-ceiling-tile-roughness.png" id="3_1gnke"]
+
+[resource]
+albedo_texture = ExtResource("1_hitqn")
+roughness_texture = ExtResource("3_1gnke")
+normal_enabled = true
+normal_texture = ExtResource("2_im1g0")
+uv1_scale = Vector3(0.06, 0.06, 0.06)
+uv1_triplanar = true
